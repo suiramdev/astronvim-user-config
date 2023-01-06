@@ -27,14 +27,14 @@ return {
 		end
 	},
 	{
-		"eduardomosko/header42.nvim",
+		"suiramdev/header42.nvim",
 		config = function()
 			vim.keymap.set('n', '<F1>', '<Cmd>Stdheader<CR>')
 
-			require("header42"):setup({
+			require("header42").setup({
 				user = "mnouchet",
-				mail = "marvin@42.fr"
+				mail = "mnouchet@student.42.fr",
 			})
 		end
-	},
+	}
 }
